@@ -1,0 +1,91 @@
+/*
+.container {
+    padding: 80px 120px;
+}
+*/
+
+.navbar {
+      font-family: Montserrat, sans-serif;
+      margin-bottom: 0;
+      background-color: #2d2d30;
+      border: 0;
+      font-size: 11px !important;
+      letter-spacing: 4px;
+      opacity: 0.9;
+  }
+  .navbar li a, .navbar .navbar-brand {
+      color: #d5d5d5 !important;
+  }
+  .navbar-nav li a:hover {
+      color: #fff !important;
+  }
+  .navbar-nav li.active a {
+      color: #fff !important;
+      background-color: #29292c !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+  }
+
+.modal-dialog {width:600px;}
+.thumbnail {margin-bottom:6px;}
+
+
+.bg-1 {
+      background: #2d2d30;
+      color: #bdbdbd;
+  }
+  .bg-1 h2 {color: #fff;}
+  .bg-1 p {font-style: italic;}
+  }
+
+
+.place {
+    border: 10px solid transparent;
+    margin-bottom: 25px;
+    width: 80%;
+    height: 80%;
+}
+.place:hover {
+    border-color: #f1f1f1;
+}
+
+
+.my-img a {
+    display: inline-block;
+    margin: 10px;
+    border: 2px solid #CCC;
+}
+.my-img a:hover {
+    border: 2px solid #45AFFF;
+}    
+.modal-lg {
+    width: 65%;
+}
+.modal-body {
+    overflow: auto;
+    max-height: auto;
+}
+
+
+
+p.main {
+    text-align: justify;
+}
+
+
+.carousel-inner img {
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+}
+
+.carousel-caption h3 {
+    color: #fff !important;
+}
+
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+}
+
