@@ -5,3 +5,4 @@ $(document).ready(function() {
         $("#showImg").append("<img class='img-responsive' src='" + image + "' />")
     })
 });
+
